@@ -91,7 +91,7 @@ export const LoginButton = styled.a`
 
 `
 
-export const BlueText = styled.span`
+export const BlueText = styled.a`
 
     font-family: 'Roboto', sans-serif;
     color: #00AEFF;

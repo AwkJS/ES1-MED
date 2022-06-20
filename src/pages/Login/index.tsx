@@ -21,7 +21,7 @@ const Login: React.FC = () => {
                 <L.LoginButton href='/'>LogIn</L.LoginButton>
                 <L.RowContainer>
                     <L.BlackText>Does not have account?</L.BlackText>
-                    <L.BlueText>Sign In</L.BlueText>
+                    <L.BlueText href='/SignUp'>Sign Up</L.BlueText>
                 </L.RowContainer>
             </L.GlobalContainer>
             
