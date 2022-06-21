@@ -74,19 +74,107 @@ const Patient: React.FC = () => {
                 </P.UtilRowContainer>
 
                 <P.UtilColumnContainer id='Medication'>
-                    <p>Ibuprofeno</p>
-                    <p>Nimesulida</p>
-                    <p>Chá</p>
+                  <P.UtilRowContainer>
+                    <P.MedicationDiv>
+                      <P.MedicationTitle>Medicamento</P.MedicationTitle>
+                      <P.MedicationText>Ibuprofeno</P.MedicationText>
+                    </P.MedicationDiv>
+                    <P.MedicationDiv>
+                      <P.MedicationTitle>Descrição</P.MedicationTitle>
+                      <P.MedicationText>Anti inflamatório</P.MedicationText>
+                    </P.MedicationDiv>
+                    <P.MedicationDiv>
+                      <P.MedicationTitle>Modo de Uso</P.MedicationTitle>
+                      <P.MedicationText>tomar um a cada oito horas</P.MedicationText>
+                    </P.MedicationDiv>
+                  </P.UtilRowContainer>
                 </P.UtilColumnContainer>
 
                 <P.UtilColumnContainer id='Person'>
-                    <p>Joséfino</p>
-                    <p>18 y</p>
+                    <P.PersonalDiv>
+                      <P.PersonalTitle>Personal</P.PersonalTitle>
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>First Name:</P.PersonalTitle>
+                        <P.PersonalText>Gustavo</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Last Name:</P.PersonalTitle>
+                        <P.PersonalText>Borges</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Birth:</P.PersonalTitle>
+                        <P.PersonalText>20/10/2000</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Sex:</P.PersonalTitle>
+                        <P.PersonalText>M</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Blood Type:</P.PersonalTitle>
+                        <P.PersonalText>A+</P.PersonalText>
+                      </P.UtilRowContainer>
+                    </P.PersonalDiv>
+
+                    <P.PersonalDiv>
+                      <P.PersonalTitle>Document</P.PersonalTitle>
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Document Type:</P.PersonalTitle>
+                        <P.PersonalText>CPF</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Document Number:</P.PersonalTitle>
+                        <P.PersonalText>47843513890</P.PersonalText>
+                      </P.UtilRowContainer>
+                    </P.PersonalDiv>
+
+                    <P.PersonalDiv>
+                      <P.PersonalTitle>Address</P.PersonalTitle>
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Postal Code:</P.PersonalTitle>
+                        <P.PersonalText>13506460</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Street Number</P.PersonalTitle>
+                        <P.PersonalText>68 A</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>District:</P.PersonalTitle>
+                        <P.PersonalText>Sei lá</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>City:</P.PersonalTitle>
+                        <P.PersonalText>Rio Claro</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>State:</P.PersonalTitle>
+                        <P.PersonalText>SP</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Country:</P.PersonalTitle>
+                        <P.PersonalText>Brazil</P.PersonalText>
+                      </P.UtilRowContainer>
+
+                      <P.UtilRowContainer>
+                        <P.PersonalTitle>Complement:</P.PersonalTitle>
+                        <P.PersonalText>House 2044</P.PersonalText>
+                      </P.UtilRowContainer>
+                    </P.PersonalDiv>
                 </P.UtilColumnContainer>
 
                 <P.UtilColumnContainer id='Record'>
-                    <p>Dr.Pato</p>
-                    <p>20/10/2000</p>
+                    <P.UtilRowContainer>
+                      
+                    </P.UtilRowContainer>
                 </P.UtilColumnContainer>
             </P.GlobalContainer>
             

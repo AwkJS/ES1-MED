@@ -16,7 +16,7 @@ const Registration: React.FC = () => {
                     <R.Input type='text' placeholder='Last Name'></R.Input>
                     <R.Input type='date' placeholder='Birth Date'></R.Input>
                     <R.Input type='text' placeholder='Sex'></R.Input>
-                    <R.Input type='text' placeholder='Bold Type'></R.Input>
+                    <R.Input type='text' placeholder='Blood Type'></R.Input>
                     <R.CategoryText>Document</R.CategoryText>
                     <R.Input type='text' placeholder='Document Type'></R.Input>
                     <R.Input type='text' placeholder='Documenet Number'></R.Input>

@@ -73,3 +73,75 @@ export const UtilColumnContainer = styled.div`
 
 
 `
+
+export const MedicationTitle = styled.span`
+
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #303030;
+
+
+
+`
+
+export const MedicationText = styled.p`
+
+
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #303030;
+
+
+`
+
+export const MedicationDiv = styled.div`
+
+
+    margin: 20px;
+    align-items: center;
+    width: 100%;
+
+`
+
+export const PersonalDiv = styled.div`
+
+    margin: 50px;
+    width: 100%;
+
+`
+
+export const PersonalTitle = styled.span`
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #303030;
+
+
+`
+
+export const PersonalText = styled.p`
+
+
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #303030;
+
+
+`
+
+export const RecordTitle = styled.span`
+
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #303030;
+
+`
