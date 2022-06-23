@@ -15,7 +15,7 @@ export const Title = styled.h1`
 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #00AEFF;
+    color: #1BD496;
     font-size: 50px;
     margin: 50px;
 
@@ -35,7 +35,7 @@ export const Select = styled.select`
 
     width: 150px;
     height: 30px;
-    background: #00AEFF;
+    background: #1BD496;
     border: none;
     margin-bottom: 30px;
 
@@ -56,7 +56,7 @@ export const Input = styled.input`
     color: #000;
     margin: 5px;
     :focus{
-        border: 2px solid #00AEFF;
+        border: 2px solid #1BD496;
     }
 
 
@@ -68,8 +68,8 @@ export const LoginButton = styled.a`
     align-items: center;
     width: 530px;
     height: 50px;
-    border: 2px solid #00AEFF;
-    background: #00AEFF;
+    border: 2px solid #1BD496;
+    background: #1BD496;
     font-size: 18px;
     color: #fff;
     text-align: center;
@@ -91,10 +91,10 @@ export const LoginButton = styled.a`
 
 `
 
-export const BlueText = styled.a`
+export const GreenText = styled.a`
 
     font-family: 'Roboto', sans-serif;
-    color: #00AEFF;
+    color: #1BD496;
     font-size: 15px;
     font-weight: 600;
     margin: 5px;

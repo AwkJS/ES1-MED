@@ -8,5 +8,5 @@ export const HeaderDiv = styled.header`
     background: #FFFFFF;
     width: 100%;
     height: 70px;
-    background-color: #00AEFF;
+    background-color: #1BD496;
 `

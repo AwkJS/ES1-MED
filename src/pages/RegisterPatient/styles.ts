@@ -15,7 +15,7 @@ export const Title = styled.h1`
 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #00AEFF;
+    color: #1BD496;
     font-size: 50px;
     margin: 50px;
 
@@ -41,9 +41,9 @@ export const CategoryText = styled.span`
 
 export const Input = styled.input`
 
-    padding: 0.8rem;
+    padding: 5px;
     width: 500px;
-    height: 30px;
+    height: 50px;
     border: 2px solid #E7E7E7;
     border-radius: 5px;
     background: #E6E6E6;
@@ -53,9 +53,28 @@ export const Input = styled.input`
     color: #000;
     margin: 5px;
     :focus{
-        border: 2px solid #00AEFF;
+        border: 2px solid #1BD496;
     }
 
+
+`
+
+export const Select = styled.select`
+
+    padding: 5px;
+    width: 515px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #E6E6E6;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: #000;
+    margin: 5px;
+    :focus{
+        border: 2px solid #1BD496;
+    }
 
 `
 
@@ -65,8 +84,8 @@ export const RegisterButton = styled.button`
     align-items: center;
     width: 530px;
     height: 50px;
-    border: 2px solid #00AEFF;
-    background: #00AEFF;
+    border: 2px solid #1BD496;
+    background: #1BD496;
     font-size: 18px;
     color: #fff;
     text-align: center;

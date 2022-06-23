@@ -15,7 +15,7 @@ export const Title = styled.h1`
 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #00AEFF;
+    color: #1BD496;
     font-size: 50px;
     margin: 50px;
 
@@ -31,14 +31,31 @@ export const UtilRowContainer = styled.div`
 
 `
 
+
+export const Icon = styled.img`
+
+
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+
+`
+
 export const MedicationButton = styled.button`
 
 
     width: 200px;
-    height: 50px;
-    background: green;
+    height: 60px;
+    border-radius: 10px;
+    background: #1BD496;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
     margin: 10px;
     border: none;
+    place-content: center;
+    place-items: center;
 
 `
 
@@ -46,19 +63,34 @@ export const PersonButton = styled.button`
 
 
     width: 200px;
-    height: 50px;
-    background: red;
+    height: 60px;
+    border-radius: 10px;
+    background: #1BD496;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
     margin: 10px;
     border: none;
+    place-content: center;
+    place-items: center;
+    
 `
 
 export const RecordButton = styled.button`
 
     width: 200px;
-    height: 50px;
-    background: blue;
-    margin:10px;
+    height: 60px;
+    border-radius: 10px;
+    background: #1BD496;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px;
     border: none;
+    place-content: center;
+    place-items: center;
 
 `
 

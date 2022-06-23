@@ -13,15 +13,14 @@ const Login: React.FC = () => {
                 <L.SubTitle>Sign In</L.SubTitle>
                 <L.Select>
                     <option value='Doctor'>Doctor</option>
-                    <option value='Pacient'>Pacient</option>
+                    <option value='Pacient'>Patient</option>
                 </L.Select>
-                <L.Input placeholder='Username'></L.Input>
-                <L.Input placeholder='Password'></L.Input>
-                <L.BlueText>Forgot Password</L.BlueText>
-                <L.LoginButton href='/'>LogIn</L.LoginButton>
+                <L.Input type='text' placeholder='Username'></L.Input>
+                <L.Input type='password' placeholder='Password'></L.Input>
+                <L.LoginButton href='/Patient'>LogIn</L.LoginButton>
                 <L.RowContainer>
                     <L.BlackText>Does not have account?</L.BlackText>
-                    <L.BlueText href='/SignUp'>Sign Up</L.BlueText>
+                    <L.GreenText href='/RegisterPatient'>Sign Up</L.GreenText>
                 </L.RowContainer>
             </L.GlobalContainer>
             

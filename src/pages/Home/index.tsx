@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <>
 
             <H.GlobalContainer>
-                <h1>alo</h1>
+                <h1>Página da Clinica</h1>
             </H.GlobalContainer>
             
         </>
